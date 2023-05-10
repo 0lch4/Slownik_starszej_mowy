@@ -1,8 +1,7 @@
-dane = None
 slownik = []
 slowniczek = {}
 
-def import_data(dane):
+def import_data():
     with open('slowniczek.txt','r',encoding='utf-8') as f:
         dane = f.read()
     dane = dane.split('\n')
@@ -29,6 +28,6 @@ def make_files(slowniczek,katalog):
             f.write('\n'.join([f"{slowo[0]} - {slowo[1]}" for slowo in slowa]))
             
 if __name__ == '__main__':
-    dane = import_data(dane)
+    dane = import_data()
     tuples(dane,slownik,slowniczek)
     make_files(slowniczek,'slowniki')
