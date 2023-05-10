@@ -1,6 +1,8 @@
 venv
 keys.json
 __pycache__
+.pytest_cache
 data.py
 test.py
 .env
+tests
