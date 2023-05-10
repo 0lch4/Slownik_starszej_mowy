@@ -3,3 +3,4 @@ keys.json
 __pycache__
 data.py
 test.py
+.env
