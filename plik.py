@@ -8,8 +8,6 @@ def import_data(dane):
     dane = dane.split('\n')
     return dane
 
-dane = import_data(dane)
-
 def tuples(dane,slownik,slowniczek):
     for linia in dane:
         slowa = linia.split('-')
@@ -25,11 +23,11 @@ def tuples(dane,slownik,slowniczek):
         
         slownik.append(krotka)
         
-tuples(dane,slownik,slowniczek)
-
 def make_files(slowniczek):
     for litera, slowa in slowniczek.items():
         with open(f"slowniki\{litera}.txt", "w", encoding="utf-8") as f:
             f.write('\n'.join([f"{slowo[0]} - {slowo[1]}" for slowo in slowa]))
             
+dane = import_data(dane)
+tuples(dane,slownik,slowniczek)
 make_files(slowniczek)
