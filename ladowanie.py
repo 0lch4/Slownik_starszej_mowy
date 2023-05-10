@@ -33,4 +33,5 @@ def create_tables():
             mydb.commit()
             print("Plik {} dodany do bazy".format(filename))
                        
-create_tables()
+if __name__ == '__main__':   
+    create_tables()

@@ -23,11 +23,12 @@ def tuples(dane,slownik,slowniczek):
         
         slownik.append(krotka)
         
-def make_files(slowniczek):
+def make_files(slowniczek,katalog):
     for litera, slowa in slowniczek.items():
-        with open(f"slowniki\{litera}.txt", "w", encoding="utf-8") as f:
+        with open(f"{katalog}/{litera}.txt", "w", encoding="utf-8") as f:
             f.write('\n'.join([f"{slowo[0]} - {slowo[1]}" for slowo in slowa]))
             
-dane = import_data(dane)
-tuples(dane,slownik,slowniczek)
-make_files(slowniczek)
+if __name__ == '__main__':
+    dane = import_data(dane)
+    tuples(dane,slownik,slowniczek)
+    make_files(slowniczek,'slowniki')
