@@ -1,45 +1,92 @@
-Sàbh - piła
-Sàilre - wypływać, odpływać
-Salah - modlić się, módl się
-Saoil - dziwić się, zdziwiony
-Saor - niezależny
-Saov - duch, dusza
-Sas - żaden
-Savaed - elfi miesiąc, 1/8 roku
-Schijtleister - tchórz
-Scoia'tael - wiewiórki
-Se'ege - zwycięstwo
-Sehr - ciężko, ciężki (nie w znaczeniu czegoś, co wiele waży, a raczej w kontekście mocnych odczuć (np. sehr ràno oznacza ciężko ranny, a sehr go'deff
-Sei’fyll, Seiâ'fyll - szyk, formacja
-Seidh - wzgórze (ang. hill)
-Seidhe - wzgórzowy
-Seo - znaczy, oznacza (Tha seo
-Sgalic - pić
-Sheyss - kurwa
-Shaap - baranina
-Sh'aente, Sjunge - śpiewać
+Aen - słowo czasami pełni również funkcję angielskiego the
+Aespar, spar'le - strzelać
+Aint - smaczny
+An'givare - szpieg
+Àraich - sprowadzić
+Ard - szczyt
+Ardadel - szlachcic
+Ax - siekiera
+Blas - smakować
+Blas - smak
+Caelm - spokój
+Caelm - spokojny
+Caelm - spokojnie
+Carraigh - skała
+Celfyd - sztuka
+Claidheamh - schować
+Cnàmhan - stały
+Colled - strata
+Colled - straty
+Corras - serce
+Craag - skała
+Dearme - spać
+Deien - służyć
+Deinyg - spuchnąć (stać się grubym)
+Dhut - szczęście
+Divedde - stawaj (do walki)
+Draes - suknia
+Draes - sukienka
+Droog - szuszyć
+Enid - stokrotka
+Evgyr - stać
+Fachne - siostra
+Fàile - stęchły (śmierdzący)
+Feain - słońce
+Foilé, Foile - szalony
+Garantie - szansa
+Gàrd - strażnik
+Gàrdan - straż
+Glaes - siny
+Glossae, glosse - szukać
+Gwyn, Gwynn, Gwen - siwy (Gwen w przypadku
+Gvalch'ca - sokolica
+Hama - szynka
+Havfrue - syrena (brak liczby mnogiej)
+Heamh - sążeń
+Heàrrlois - słychać
+Heàrrlois - słyszeć
+Hen - stary
+Hen - starszy
+Hvandr - stu
+Hvandre - sto
+Iare - szukać
+Ithean - słowo nie posiada liczby pojedynczej)
+Klipa - skała
+Kroofeir - stóg siana
+Meáth - spotkać
+Meáth - spotkanie
+Mëot - słowo to oznacza również konieczność do zrobienia czegoś
+Nhetwerk - sieć
+Nhetwerk - sieci (rybackie)
+Nor - starczy
+Palle - siennik
+Piemelikkers - skurwysyny
+Rechter - sąd
+Reic’a - sprzedawać
+Sehr - stosujemy przymiotnik trom)
+Sei’fyll, Seiâ'fyll - szyk
 Skrekk - szczur
 Side - strona (konfliktu)
-Sidh - elf, siedzieć
-Sigh - ech (westchnienie)
-Sinnea - grzech
-Skip - statek, okręt
+Sidh - siedzieć
+Skip - statek
 Skool - szkoła
-Slaan - dorwać
-Slaapcaer - łóżko, alkowa
-Slafie - niewolnik (słowo nie posiada liczby mnogiej)
 Sledd - sanki
-So - że
-Sonde - sonda, sondować
+Sonde - sonda
+Sonde - sondować
 Soon - syn
-Soond - udany
-Soorkool - kapusta
 Sor'ca - siostrzyczka
-Speath - przepowiednia, wróżba
-Squaess, Squaesse - przepraszam, przepraszać, wybacz, wybaczać
-Ssant - chuć, chutliwy
-Stàilinn - stal, stalowy
+Stàilinn - stal
+Stàilinn - stalowy
 Stob - sterczeć (siedzieć w jednym miejscu)
-Straede - droga, ścieżka, gościniec
-Strige - Strzyga
-Sychiad - Sprzątać, sprzątanie
+Sychiad - sprzątanie
+Tearth - strach
+Treise - siła
+Va, Ve (forma Ve jest stosowana rzadko i głównie w dialekcie nilfgaardzkim) - spotkać
+Vairich - słyszeć
+Vall - spaść
+Veloë - szybko
+Veloë - szybki
+Verloos - straty
+Vraag - słuchać
+Yghern - skolopendromorfStrige - Strzyga
+Sychiad - Sprzątać

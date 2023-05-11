@@ -1,23 +1,39 @@
+A - rodzajnik nadający okolicznikowi określenie "jak" (np. En’ca land n’ees a evelloë saor.
+Aen - rodzajnik nadający rzeczownikowi po nim znaczenie celownika (komu? czemu?)
+Aep - rodzajnik nadający rzeczownikowi po nim znaczenie dopełniacza (kogo? czego?) i biernika (kogo? co?)
+Aevon - rzeka
+Altaich - relaks
+A - réir
+Arse - rzyć
+Begript - rozumieć
+Birke - równonoc wiosenna
+Caith - rozebrać)
+Cea'dsaa - rozpusta
+Deaghlach - rodzina
+Dear - rodzajnik
+Dòirt - rozlewany
+Doo - rów
+Eabarë - rozmokły
+Eate - rok
+Erkene - rozpoznać
+Foghnè - rodzaj
+Foerann - region
+Glys - rzeka
+Krach - rozbić się
+Krach - rozbijać się
+Lath - rozluźniać
+Orde - rozkaz
+Ortha - rzucać uroki
+Pund - rzygać
 Raadslid - rajca
-Raenn - biegać
-Raesce - niecnota
-Ragah - zarośnięty
-Ragha - wybór
 Ràno - ranny
-Ratreut - wycofywać się, odwrót
-Rechta - wyrok, werdykt
-Rechter - sąd
-Reic’a - sprzedawać
-Reigmeid - kompania, oddział, patrol
-Reusanth - rozsądek, rozsądnie
-Rhen - król
-Rhena - królowa
-Rhive - wyznaczać (np. nagrodę)
-Rhoin - nadawać (imię, tytuł)
-Ro - zanim, nim, przed tym jak
-Roethai - Redania
+Reusanth - rozsądek
+Reusanth - rozsądnie
 Roethainne - redański
-Rotsaak - kanalia
-Ruadhri - jeźdźca, jedźcy
 Ru'ire - rycerz
-Ruit’reigmeid - kawaleria, konny
+Ver'spreiden - rozparaszać się
+Ver'spreiden - rozprzestrzeniać się
+Vae - ruch
+Velen - równonoc jesienna
+Vellienn - razem
+Vort - rzucićRoethai - Redania

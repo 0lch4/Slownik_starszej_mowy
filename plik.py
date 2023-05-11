@@ -1,33 +1,42 @@
-slownik = []
-slowniczek = {}
+pairs = []
+dictionary = {}
 
 def import_data():
     with open('slowniczek.txt','r',encoding='utf-8') as f:
-        dane = f.read()
-    dane = dane.split('\n')
-    return dane
+        data = f.read()
+    data = data.split('\n')
+    return data
 
-def tuples(dane,slownik,slowniczek):
-    for linia in dane:
-        slowa = linia.split('-')
-        slowo1 = slowa[0].strip()
-        slowo2 = slowa[1].strip()
-        krotka = (slowo1, slowo2)
+def tuples(data,pairs,dictionary):
+    for line in data:
+        sides = line.split('-')
         
-        pierwsza_litera = slowo1[0]
-        if pierwsza_litera in slowniczek:
-            slowniczek[pierwsza_litera].append(krotka)
-        else:
-            slowniczek[pierwsza_litera] = [krotka]
+        elf_words = sides[0].strip()
+        polish_words = sides[1].strip()
         
-        slownik.append(krotka)
+        del_comma = polish_words.replace(',',' -')
+        all_words = del_comma.split('-')
         
-def make_files(slowniczek,katalog):
-    for litera, slowa in slowniczek.items():
-        with open(f"{katalog}/{litera}.txt", "w", encoding="utf-8") as f:
-            f.write('\n'.join([f"{slowo[0]} - {slowo[1]}" for slowo in slowa]))
+        for word in all_words:
+            word = word.lstrip()
+            word = word.rstrip()
+            
+            tupl = (elf_words,word)
+        
+            first_letter = word[0]
+            if first_letter in dictionary:
+                dictionary[first_letter].append(tupl)
+            else:
+                dictionary[first_letter] = [tupl]
+            
+            pairs.append(tupl)
+        
+def make_files(dictionary,dirr):
+    for letter, pair in dictionary.items():
+        with open(f"{dirr}/{letter}.txt", "a", encoding="utf-8") as f:
+            f.write('\n'.join([f"{word[0]} - {word[1]}" for word in pair]))
             
 if __name__ == '__main__':
-    dane = import_data()
-    tuples(dane,slownik,slowniczek)
-    make_files(slowniczek,'slowniki')
+    data = import_data()
+    tuples(data,pairs,dictionary)
+    make_files(dictionary,'slowniki')

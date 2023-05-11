@@ -1,36 +1,55 @@
+Aen - miejscownika (kim? czym?) i biernika (kogo? co?)
+Am - mieć
+An - mały
+An - mniejszy
+Ban - miejscowość
+Beag - mało
+Caen - móc
+Caen - można
+Ceòlh - muzyka
+Creasa - musieć
+Daerienn - magiczka
+Dice - mówić
+Dicen - mowa
+Eigean - musieć
+En'ca - mały
+En'ca - małe
+En'ca - malutki
+Ess - mieć
+Esse - mieć (czas przyszły)
+Essea - mam
+Essea - mamy
+Esseath - masz
+Esseath - macie
+Fen - mokradła
+Fireann - męski
+Fireann - męstwo
+Glaeddyv - miecz
+Gvaren - mistrzyni
+Il'edrith - magia
+Il'edrithe - mag
+Iss'kund - medycyna
+Lara - mewa
 Ma - może
-Mar - jak (np. Essea stob hwer mar bodan.
-Marca - jeździć (konno)
-Marche, March, Maerch - kobieta, dziewczyna (słowo stosowane głównie w dialekcie nilfgaardzkim, w klasycznej Starszej Mowie używane rzadko) (słowo nie posiada liczby mnogiej)
-Marv - umrzeć, nie żyć
-Mass - dno
-Math - dobrze, świetnie (słowo stosowane głównie w dialekcie nilfgaardzkim, w klasycznej Starszej Mowie używane rzadko)
-Mawr - umierać
-Mar’sande - kupiec
-Me - ja, mój, mnie
-Méadbh (przypuszczalny źródłosłów: ang. meadow, staroangielski mædwe) - polny
-Meadhan - środek (centrum)
-Meal - winszować
-Mear'ya - Maria
-Meáth - spotkać, spotkanie
-Mëot - mieć (oprócz standardowego znaczenia mieć
-Meve - środek (wnętrze), w środku (wewnątrz)
-Mid - przesilenie
-Midaëte - letnie przesilenie
-Midinváerne - zimowe przesilenie
-Milva - kania ruda (gatunek ptaka)
+Me - mój
+Me - mnie
+Mëot - mieć (oprócz standardowego znaczenia mieć posiadać coś
 Minne - miłość
-Mire - zobaczyć, patrzeć, patrz
-Misneach - fantazja
-Mistle - jemiołuszka, paszkot (gatunek ptaka)
-Modron, Moedron - mama, matka
-Moe'itë - kłopoty
-Moeras - bagno, bagna
-Mol - kret
-Mòran - dużo
-Morc - książka, tom
-Mori Rígain - Morrigan
-Morvud - wróg
-Morvudd - wrogowie
+Modron, Moedron - mama
+Modron, Moedron - matka
 Muire - morze
-Mynyde - góry
+Nílfe - mgła
+Nordling - mieszkaniec Północy
+Pavienn - małpa
+Pont - most
+Salah - modlić się
+Salah - módl się
+Thaess, Thaesse - milcz
+Theenk - myśl
+Theenk - myśleć
+Tunn - miasto
+Tuveaann - martwica
+Tuveë - martwy
+Va, Ve (forma Ve jest stosowana rzadko i głównie w dialekcie nilfgaardzkim) - my
+Vermogen - możliwościMear'ya - Maria
+Mori Rígain - Morrigan

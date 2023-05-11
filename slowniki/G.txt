@@ -1,37 +1,30 @@
-Gaeth - potral, wrota
-Gàidh, Gàrracaer, Gardd - ogród
-Galle - prędkość
-Garantie - szansa, gwarancja, pewno
-Gàrd - wartownik, strażnik
-Gàrdan - straż
-Garddvrae - ogrodnictwo
-Gar'ean, Garean - uważaj, uwaga, uważać
-Geas - przekleństwo, klątwa, zew
-Gedréog - trzeźwy
-Geehaet - trudny
-Ge’erill - partyzant
-Gerookte - wędzony
-Ghele - lodowiec[1]
-Glaeddyv - miecz, broń
-Glaenne - upiększać, doprowadzać do porządku (sprzątać)
-Glaes - siny
-Glean - dolny, niski
-Gleanna - dolina
-Glòir - chwała
-Glossae, glosse - patrzeć, szukać
-Glys - rzeka
-Go'deff - ból
-Gugac - bąbel
-Gràin - nienawidzić, nienawiść
+Aarde - grunt
+Als, Alz - gdyby
+Ard - góra
+Blathan - girlanda
+Caed - gaj
+Carn - grób
+Carn - grobowiec
+Ceann - głowa
+Ceann - głownia
+Ceann - głowica
+Clytie - grządki
+Dal - grupować
+Dice - gadać
+Du - go
+Esan - go
+Garantie - gwarancja
 Grìffean - gryf (słowo nie posiada liczby mnogiej)
-Gvaedyn - hardy, uparty
-Gvasse - wystarczająco
-Gvaren - mistrzyni
-Gvobr - nagroda
-Gvybode - informacja, informacje
-Gwinoedd - elfie wino
-Gwyd - klon, jawor
-Gwyn, Gwynn, Gwen - biały, siwy (Gwen w przypadku, gdy stosuje się nazwę własną, a słowo łączy się z opisywanym rzeczownikiem.) (W języku nilfgaardzkim stosuje się również formę Wen)
-Gwynt - wiatr
-Gvalch'ca - Falka, sokolica
-Gynvael - lód
+Gwyn, Gwynn, Gwen - gdy stosuje się nazwę własną
+H’acras - głód
+Heet - gorączka
+Hoog - głębokość
+Hwer, hwre - gdzie
+Hwer, hwre - gdzieś
+Jinearalt - generał
+Kusse - genitalia
+Mynyde - góry
+Nag - gryźć
+Sinnea - grzech
+Straede - gościniec
+Ysgarthiad - gówno

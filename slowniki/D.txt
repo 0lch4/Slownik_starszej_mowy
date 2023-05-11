@@ -1,46 +1,72 @@
-Daerienn - czarodziejka, magiczka
-Daetre - tył
-Dal - grupować, zgrupować
-Dana - panna
-Darganfod - odkrycie, odkrywać, odkrywca
-Darl'len - czytać
-Dat - żeby, aby
-Deaghlach - rodzina
-Dear - rodzajnik, podłączany do wyrazu z myślnikiem, określający, iż coś jest takie same lub też to same (np. dear
-Dearf - pewność
-Dearg - czerwony
-Dearme - żegnaj, śpij, spać, dobranoc
-Dei'bai, de'bai - zatoka
+A - do
+A - dla (np. Sàbh a me piła do mnie
+Adhart - do przodu
+Aen - do
+Aep - do
+Allaidh - dzikus
+Allaidhe - dziki
+An'givare - donosiciel
+Arbaith - działalność
+Arse - dupa
+A’taeghane - dzisiaj
+Bu'rac - dureń
+Caente - dzień
+Caer - dom
+Caer’den - dwór
+Caisse - dostarczyć
+Carn - dół
+Carn - doły
+Ceanndant - dowódca
+Dearme - dobranoc
 Deich - dziesięć
-Deien - służyć
-Deinyg - utuczyć się, spuchnąć (stać się grubym)
-Deireadh - koniec, kończyć, ostateczny
-Deith - płomień
-Deithe - podpalać
-Dhearmad - zapomnieć
-Dh'oine - człowiek, ludzie
-Dhu - czarny, ciemny
-Dhut - szczęście
-Dice - mówić, gadać
-Dicen - mowa, dialekt
-Dicette - opowiadać, powtarzać
+Dicen - dialekt
 Dielch - dziękuję
-Difranh - inaczej, inny, dziwny
-Diùcad - księstwo
-Divedde - stawaj (do walki)
-Dòchas - nadzieja
-Dòirt - rozlewany
-Dol - dolina, kotlina, dołek
-Dolmaach - zachowanie
-Doo - rów, dół
-Draes - suknia, sukienka
-Draga - nosić
-Drieschot - trójkąt
-Droog - osuszać, szuszyć
+Difranh - dziwny
+Dol - dolina
+Dol - dołek
+Doo - dół
 Drùis - dhai
-Du - go, jego
 Duges - diuszesa
-Dure - podczas
-Dùth - właściwy
 Dwimeritium - dwimeryt
-Dyaebl, D'yaebl - diabeł, czart
+Dyaebl, D'yaebl - diabeł
+Ell'ea - dobrze
+Ell'ea - dobrze?). W oryginalnej Starszej Mowie konstrukcja ta jest poprawna
+Eluaim - dźwięk
+Fear - daleko
+Glaenne - doprowadzać do porządku (sprzątać)
+Glean - dolny
+Gleanna - dolina
+Hoal, Hoel - dziura
+Hoer, hvren - dziwka
+Joc - dowcip
+Kamndant - dowódca
+Kraihen - dostać
+Laith - dama
+Lammas - dojrzewanie
+Llamas - dojrzewający
+Luned - dziewczyna
+Marche, March, Maerch - dziewczyna (słowo stosowane głównie w dialekcie nilfgaardzkim
+Mass - dno
+Math - dobrze
+Mëot - do bycia jakimś. (Przypomina to angielskie have to i działa na podobnej zasadzie. (np. Essea mëot va  Muszę iść/I have to go)))
+Mòran - dużo
+Naev'de - dziewięć
+Saoil - dziwić się
+Saov - duch
+Saov - dusza
+Slaan - dorwać
+Straede - droga
+Taing - dziękuję
+Taing - dziękować
+Theervil - dopóki
+Tirth - dzik
+Twe, tve - dwa
+Var'oom - dlaczego
+Vear'thainn - deszcz
+Vort - daleko
+Vort - dalej
+Wedd, Weddin - dziecko
+Wedd, Weddin - dziecię
+Wilde - dziki
+Woed, Woéd, Woedd - drewno
+Yea - dobrze (w porządkuBan - Diùc

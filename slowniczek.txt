@@ -1,4 +1,4 @@
-A - że, do, od, dla (np. Sàbh a me - piła do mnie, piła dla mnie), rodzajnik nadający okolicznikowi określenie "jak" (np. En’ca land n’ees a evelloë saor. - Małe państwo nie może być w pełni niezależne.), to, angielskie of
+A - że, do, od, dla (np. Sàbh a me piła do mnie, piła dla mnie), rodzajnik nadający okolicznikowi określenie "jak" (np. En’ca land n’ees a evelloë saor. - Małe państwo nie może być w pełni niezależne.), to, angielskie of
 A'anval - atak, atakować, zaatakować
 Aard - najwyższy, najbardziej
 Aarde - ziemia, grunt
@@ -151,7 +151,7 @@ Darganfod - odkrycie, odkrywać, odkrywca
 Darl'len - czytać
 Dat - żeby, aby
 Deaghlach - rodzina
-Dear - rodzajnik, podłączany do wyrazu z myślnikiem, określający, iż coś jest takie same lub też to same (np. dear-ceòlh - taka sama muzyka; dear-zaighde’r - tan sam żołnierz)
+Dear - rodzajnik, podłączany do wyrazu z myślnikiem, określający, iż coś jest takie same lub też to same (np. dear-ceòlh  taka sama muzyka; dear-zaighde’r  tan sam żołnierz)
 Dearf - pewność
 Dearg - czerwony
 Dearme - żegnaj, śpij, spać, dobranoc
@@ -199,7 +199,7 @@ Eimyr - jeż
 Eisio, aark - kra
 Elaine - piękny
 Elle - olcha
-Ell'ea - dobrze, w porządku, świetnie (słowo rzadko używane w dialekcie nilfgaardzkim, w dialekcie skelligijskim stosowane również jako pytanie (np. Va'en aesledde, ell'ea? - Pójdziemy na sanki, dobrze?). W oryginalnej Starszej Mowie konstrukcja ta jest poprawna, jednak uchodzi za niegrzeczną.)
+Ell'ea - dobrze, w porządku, świetnie (słowo rzadko używane w dialekcie nilfgaardzkim, w dialekcie skelligijskim stosowane również jako pytanie (np. Va'en aesledde, ell'ea?  Pójdziemy na sanki, dobrze?). W oryginalnej Starszej Mowie konstrukcja ta jest poprawna, jednak uchodzi za niegrzeczną.)
 Eluaim - dźwięk
 En'ca - mały, małe, malutki
 Enect - uchwalać
@@ -243,7 +243,7 @@ Fir’inn - prawda
 Fògair - pogonić, odrzucić (kogoś od czegoś), wyrzucić
 Foghnè - rodzaj, typ
 Foilé, Foile - szalony, wściekły
-Fors - wodospad[1]
+Fors - wodospad
 Foerann - kraina, region
 Fraer - brat
 Fydd - przełęcz
@@ -260,7 +260,7 @@ Gedréog - trzeźwy
 Geehaet - trudny
 Ge’erill - partyzant
 Gerookte - wędzony
-Ghele - lodowiec[1]
+Ghele - lodowiec
 Glaeddyv - miecz, broń
 Glaenne - upiększać, doprowadzać do porządku (sprzątać)
 Glaes - siny
@@ -291,14 +291,14 @@ Haearn - żelazo, żelazny
 Hama - szynka, wędlina
 Hàr - brzeg (forma używana głównie w języku nilfgaardzkim)
 Hav'caaren - nieprzetłumaczalne słowo kojarzące się z drapieżną chciwością; havekarzy
-Hav - złe (Aard'hav - najgorsze)
+Hav - złe (Aard'hav  najgorsze)
 Havfrue - syrena (brak liczby mnogiej)
 Heamh - sążeń
 Heàrrlois - słychać, słyszeć
 Heer - pan (forma grzecznościowa), tu
 Heet - gorączka
 Hen - stary, starszy
-Henge - klif[1]
+Henge - klif
 Herba - ziele
 Her’zaer. Ker'zaer - cesarz
 Hefyd - także, też
@@ -369,7 +369,7 @@ Luith - obwieś
 Luned - dziewczyna, córka
 Lyrien - Liryjczyk
 Ma - może
-Mar - jak (np. Essea stob hwer mar bodan. - Sterczymy tu niczym kuśki.), niczym
+Mar - jak (np. Essea stob hwer mar bodan.  Sterczymy tu niczym kuśki.), niczym
 Marca - jeździć (konno)
 Marche, March, Maerch - kobieta, dziewczyna (słowo stosowane głównie w dialekcie nilfgaardzkim, w klasycznej Starszej Mowie używane rzadko) (słowo nie posiada liczby mnogiej)
 Marv - umrzeć, nie żyć
@@ -383,7 +383,7 @@ Meadhan - środek (centrum)
 Meal - winszować
 Mear'ya - Maria
 Meáth - spotkać, spotkanie
-Mëot - mieć (oprócz standardowego znaczenia mieć - posiadać coś, słowo to oznacza również konieczność do zrobienia czegoś, do bycia jakimś. (Przypomina to angielskie have to i działa na podobnej zasadzie. (np. Essea mëot va - Muszę iść/I have to go)))
+Mëot - mieć (oprócz standardowego znaczenia mieć posiadać coś, słowo to oznacza również konieczność do zrobienia czegoś, do bycia jakimś. (Przypomina to angielskie have to i działa na podobnej zasadzie. (np. Essea mëot va  Muszę iść/I have to go)))
 Meve - środek (wnętrze), w środku (wewnątrz)
 Mid - przesilenie
 Midaëte - letnie przesilenie
@@ -408,14 +408,14 @@ Na - albo, lub
 Naev'de - dziewięć
 Nag - odgryźć, gryźć
 Namyn - poza, oprócz, z wyjątkiem
-Ne - ani (podobne do angielskich neither i nor; N'ees behéth ne bhampair ne mallaich! - Nie pisałem się ani na wampiry ani na klątwy)
+Ne - ani (podobne do angielskich neither i nor; N'ees behéth ne bhampair ne mallaich!  Nie pisałem się ani na wampiry ani na klątwy)
 Neen, Neén, N'een, - nie, ani, bez, nic
 Neenphàir - neutralny, bezstronny
 N'elaine - nieładnie, nieładny, brzydki
 Nell'ea - niedobrze, żle
 N’evellien - nikt
 Nhetwerk - sieć, sieci (rybackie)
-Nílfe - mgła[1]
+Nílfe - mgła
 Niss - pochwa (na broń)
 Nor - wystarczy, starczy
 Nord - północ
@@ -454,7 +454,7 @@ Qinnte - z pewnością, na pewno
 Que, Que'ss - czym, co, czego
 Que’cail - jak
 Que'ess - ile, jak, kto, który
-Quess', Ques', Que'ss - co, ile, jak, kto, który, czym, czego (w odniesieniu do czasownika, który zostaje po nim umieszczony. Zazwyczaj funkcjonuje jako skrócona forma Que esse (Np. Ques’ann - co zrobisz)
+Quess', Ques', Que'ss - co, ile, jak, kto, który, czym, czego (w odniesieniu do czasownika, który zostaje po nim umieszczony. Zazwyczaj funkcjonuje jako skrócona forma Que esse (Np. Ques’ann  co zrobisz))
 Raadslid - rajca
 Raenn - biegać
 Raesce - niecnota
@@ -485,15 +485,15 @@ Saoil - dziwić się, zdziwiony
 Saor - niezależny
 Saov - duch, dusza
 Sas - żaden
-Savaed - elfi miesiąc, 1/8 roku
+Savaed - elfi miesiąc 1/8 roku
 Schijtleister - tchórz
 Scoia'tael - wiewiórki
 Se'ege - zwycięstwo
-Sehr - ciężko, ciężki (nie w znaczeniu czegoś, co wiele waży, a raczej w kontekście mocnych odczuć (np. sehr ràno oznacza ciężko ranny, a sehr go'deff - bardzo boli). Gdy chcemy opisać ciężką wagę, stosujemy przymiotnik trom)
+Sehr - ciężko, ciężki (nie w znaczeniu czegoś, co wiele waży, a raczej w kontekście mocnych odczuć (np. sehr ràno oznacza ciężko ranny, a sehr go'deff  bardzo boli). Gdy chcemy opisać ciężką wagę, stosujemy przymiotnik trom)
 Sei’fyll, Seiâ'fyll - szyk, formacja
 Seidh - wzgórze (ang. hill)
 Seidhe - wzgórzowy
-Seo - znaczy, oznacza (Tha seo - to znaczy, że)
+Seo - znaczy, oznacza (Tha seo  to znaczy, że)
 Sgalic - pić
 Sheyss - kurwa
 Shaap - baranina
@@ -525,7 +525,7 @@ Straede - droga, ścieżka, gościniec
 Strige - Strzyga
 Sychiad - Sprzątać, sprzątanie
 Táedh - bard, poeta
-Taing - dziękuję, dziękować, podziękowanie (Mòran taing - bardzo dziękuję)
+Taing - dziękuję, dziękować, podziękowanie (Mòran taing  bardzo dziękuję)
 Tanalach - płytko, płytki
 Teanga - język
 Tearth - strach, bać się
@@ -534,7 +534,7 @@ Tha - to, oni, ten
 Thaë - potem, następnie
 Thaess, Thaesse - zamilcz, milcz, zamknij się
 Thea - tamta, one
-Theenk - myśl, myśleć, pomysł (theenk’a - wymyśleć)
+Theenk - myśl, myśleć, pomysł (theenk’a  wymyśleć)
 Theervil - póki, dopóki
 Tho - twój
 Thorp - wieś, wioska

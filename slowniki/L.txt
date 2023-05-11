@@ -1,24 +1,21 @@
-Lager - niżej, nisko
-Laith - dama
-Lamh - wziąść na ręce, podnieść
-Lammas - dojrzewanie
-Land - terytorium, teren, państwo
-Lara - mewa
-Larwm - alarm, pomoc, wsparcie
-Lath - rozluźniać
+Aëte - lato
+An - lecz
+Caed - las
+Cáerme - los
+Coeden - las
+Coram - lew
+Crevan - lis
+Dh'oine - ludzie
+Eate'n - lata
+Feer - lepiej
+Ghele - lodowiec
+Gynvael - lód
+Iss'kund - lekarstwo
+Iss'kund - leczyć
 Lazare - lazaret
-Leeg - pusty
-Leig - noga
-Leith - taki
 Licht - lekki
 Lionors - lwica
-Llamas - dojrzewający
-Llinge - język
-Loa'then - nienawiść
-Loc - jezioro
-Loc'lah - Pani Jeziora
-Lòn - żarcie
-Luath - wkrótce
-Luith - obwieś
-Luned - dziewczyna, córka
-Lyrien - Liryjczyk
+Midaëte - letnie przesilenie
+Na - lub
+Tro’cayr - litość
+Woed, Woéd, Woedd - lasLyrien - Liryjczyk

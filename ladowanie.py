@@ -12,12 +12,12 @@ def create_tables():
             tablename = os.path.splitext(filename)[0]
 
             mycursor = mydb.cursor()
-            mycursor.execute("CREATE TABLE {} (slowo VARCHAR(255), tlumaczenie TEXT)".format(tablename))
+            mycursor.execute("CREATE TABLE {} (tlumaczenie VARCHAR(255), polskie_slowa TEXT)".format(tablename))
 
             with open_file(os.path.join("slowniki", filename)) as file:
                 for line in file:
                     slowo, tlumaczenie = line.strip().split(' - ', 1)
-                    sql = "INSERT INTO {} (slowo, tlumaczenie) VALUES (%s, %s)".format(tablename)
+                    sql = "INSERT INTO {} (tlumaczenie, polskie_slowa) VALUES (%s, %s)".format(tablename)
                     val = (slowo, tlumaczenie)
                     mycursor.execute(sql, val)
 

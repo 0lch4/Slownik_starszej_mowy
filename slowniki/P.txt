@@ -1,19 +1,121 @@
-Pa’as - zadbać
-Palle - siennik
-Pavienn - małpa
-Pest - choroba, zaraza, plaga, zły urok
-Pesta - zachorować, chorować
-Pestaë - chory, zarażony
-Phea - kilka
-Pheòr - ciekawe
-Pherian - niziołek
-Phoilitigeac - polityk, polityk, polityczny
-Piemelikkers - skurwysyny
+A - piła dla mnie)
+A'báeth - pocałunek
+Aecáemm - podążać
+Aefder - później
+Aefder - po
+Aedragh - prowokować
+Aedragh - przeszkadzać
+Aegef - podać
+Aep - pośród
+Aep - przed
+Aep - przez
+Aep - pod
+Aep - po (coś
+Aint - pyszny
+Arbaith - praca
+Awr - pan
+Beseta - penseta
+Blàr - pole
+Bloede - pieprzony
+Bu'rac - prostak
+Caedva - puszcza
+Caelm - powoli
+Caemm, Cáemm - przyjść
+Cáerme - przeznaczenie
+Caisse - przywieść
+Caisse - przynieść (ang. bring)
+Cairt - powierzchnia
+Col - przełęcz
+Coltais - podobno
+Coltais - ponoć
+Creasa - powinność
+Croigh - powiesić
+Cruinn - pierścień
+Cuan - prostytutka
+Dana - panna
+Dear - podłączany do wyrazu z myślnikiem
+Dearf - pewność
+Deith - płomień
+Deithe - podpalać
+Dicette - powtarzać
+Dure - podczas
+Elaine - piękny
+Erkene - poznać
+Faill - ponownie
+Feansa - płot
+Fem - pięć
+Fir’inn - prawda
+Fògair - pogonić
+Fydd - przełęcz
+Gaeth - potral
+Galle - prędkość
+Garantie - pewno
+Geas - przekleństwo
+Ge’erill - partyzant
+Glossae, glosse - patrzeć
+Hael - pozdrowienie
+Hael - pozdrawiam
+Heer - pan (forma grzecznościowa)
+Hoal, Hoel - potocznie: dupa
+Hoer, hvren - prostytutka
+Iare - prosić
+Iarean - poszukiwania
+Imbael - płodzić
+Ismear - pijany
+Ismear - pijaństwo
+Ismear - pijak
+Jakkten - polowanie
+Jakkten - polować
+Lamh - podnieść
+Land - państwo
+Larwm - pomoc
+Leeg - pusty
+Méadbh (przypuszczalny źródłosłów: ang. meadow, staroangielski mædwe) - polny
+Mid - przesilenie
+Mire - patrzeć
+Mire - patrz
+Mistle - paszkot (gatunek ptaka)
+Namyn - poza
+Niss - pochwa (na broń)
+Nord - północ
+Órdan - porządek
+Orde - polecenie
+Pest - plaga
+Phoilitigeac - polityk
+Phoilitigeac - polityk
+Phoilitigeac - polityczny
 Plasse - pałac
-Pont - most
-Prìson - więzień
-Prop - knebel
-Pràbar - hołota, tłuszcza
-Prionnsa - książe
-Pump - pompować, pompki
-Pund - rzygać, wymiotować
+Pump - pompować
+Pump - pompki
+Reigmeid - patrol
+Ro - przed tym jak
+Sàbh - piła
+Sgalic - pić
+Speath - przepowiednia
+Squaess, Squaesse - przepraszam
+Squaess, Squaesse - przepraszać
+Táedh - poeta
+Taing - podziękowanie (Mòran taing  bardzo dziękuję)
+Tanalach - płytko
+Tanalach - płytki
+Tedd - pora
+Tedd - pogoda
+Thaë - potem
+Theenk - pomysł (theenk’a  wymyśleć)
+Theervil - póki
+Tilleadh - powrót
+Uniade - pojednanie
+Ulf’heid - potwór
+Va, Ve (forma Ve jest stosowana rzadko i głównie w dialekcie nilfgaardzkim) - przyjść
+Va'en - podróż
+Verloos - przegrani
+Visse - poseł
+Voe'rle - przestać
+Vort - precz
+Vraag - pytać
+Vraag - pytanie
+Ym’grymie - pokłoń się
+Yn - pod
+Zeist - problem
+Zorgh - przejmować się
+Zvaere - przysięgaćLoc'lah - Pani Jeziora

@@ -1,17 +1,8 @@
 import pytest
 import os
-import mysql.connector
-from dotenv import load_dotenv
+from mydb import conn
 
-load_dotenv()
-
-mydb = mysql.connector.connect(
-    host=os.getenv('host'),
-    user=os.getenv('user'),
-    password=os.getenv('password'),
-    database=os.getenv('database'),
-    charset='utf8mb4'
-)
+mydb = conn()
 
 import plik
 
@@ -21,13 +12,12 @@ def test_tuples():
         Deien - służyć
         Waen - chcieć'''
         
-    
     dane = dane.split('\n')
     slowniczek = {}
     slownik = []
 
     expected_slownik = [('Aecáemm', 'podążać'), ('Aedd', 'okruch'), ('Deien', 'służyć'), ('Waen', 'chcieć')]
-    expected_slowniczek = {'A': [('Aecáemm', 'podążać'),('Aedd', 'okruch')], 'D':[('Deien', 'służyć')], 'W': [('Waen', 'chcieć')]}
+    expected_slowniczek = {'p': [('Aecáemm', 'podążać')],'o': [('Aedd', 'okruch')], 's':[('Deien', 'służyć')], 'c': [('Waen', 'chcieć')]}
 
     plik.tuples(dane, slownik, slowniczek)
 
@@ -36,7 +26,8 @@ def test_tuples():
     
     
 def test_make_files():
-    slowniczek = {'A': [('Aecáemm', 'podążać'),('Aedd', 'okruch')], 'D':[('Deien', 'służyć')], 'W': [('Waen', 'chcieć')]}
+    slowniczek = {'p': [('Aecáemm', 'podążać')],'o': [('Aedd', 'okruch')], 's':[('Deien', 'służyć')], 'c': [('Waen', 'chcieć')]}
+
     
     with open('tests/makefile/A.txt','w',encoding="utf-8") as f:
         f.write('Aecáemm - podążać\nAedd - okruch')
@@ -63,7 +54,6 @@ def test_create_tables2():
             tablename = os.path.splitext(filename)[0]
 
             mycursor = mydb.cursor()
-            mycursor.execute("DROP TABLE IF EXISTS test1")
             mycursor.execute("CREATE TABLE {} (slowo VARCHAR(255), tlumaczenie TEXT)".format(tablename))
 
             with ladowanie.open_file(os.path.join("tests", filename)) as file:
@@ -74,4 +64,5 @@ def test_create_tables2():
     
     assert tablename == 'test1'
     assert val == ('is this', 'work')
+    mycursor.execute("DROP TABLE IF EXISTS test1")
     
