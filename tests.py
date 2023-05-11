@@ -74,3 +74,4 @@ def test_create_tables2():
     
     assert tablename == 'test1'
     assert val == ('is this', 'work')
+    
