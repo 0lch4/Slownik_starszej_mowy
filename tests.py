@@ -3,10 +3,11 @@ import os
 from mydb import conn
 from fastapi.testclient import TestClient
 
+#testy sprawdzajace poprawnosc dzialania
+
 mydb = conn()
 
 import plik
-
 def test_tuples():
     data = '''Aecáemm - podążać
         Aedd - okruch
@@ -30,34 +31,34 @@ def test_make_files():
     dictionary = {'p': [('Aecáemm', 'podążać')],'o': [('Aedd', 'okruch')], 's':[('Deien', 'służyć')], 'c': [('Waen', 'chcieć')]}
 
     
-    with open('tests/makefile/A.txt','w',encoding="utf-8") as f:
+    with open('tests_files/makefile/A.txt','w',encoding="utf-8") as f:
         f.write('Aecáemm - podążać\nAedd - okruch')
-    with open('tests/makefile/D.txt','w',encoding="utf-8") as f:
+    with open('tests_files/makefile/D.txt','w',encoding="utf-8") as f:
         f.write('Deien - służyć')
-    with open('tests/makefile/W.txt','w',encoding="utf-8") as f:
+    with open('tests_files/makefile/W.txt','w',encoding="utf-8") as f:
         f.write('Waen - chcieć')
         
-    plik.make_files(dictionary,'tests/makefile')
+    plik.make_files(dictionary,'tests_files/makefile')
     
-    with open('tests/makefile/A.txt','r',encoding="utf-8") as f:
+    with open('tests_files/makefile/A.txt','r',encoding="utf-8") as f:
         assert f.read() == 'Aecáemm - podążać\nAedd - okruch'
-    with open('tests/makefile/D.txt','r',encoding="utf-8") as f:
+    with open('tests_files/makefile/D.txt','r',encoding="utf-8") as f:
         assert f.read() == 'Deien - służyć'
-    with open('tests/makefile/W.txt','r',encoding="utf-8") as f:
+    with open('tests_files/makefile/W.txt','r',encoding="utf-8") as f:
         assert f.read() == 'Waen - chcieć'
         
         
 import loading
 
 def test_create_tables2():
-    for filename in os.listdir("tests"):
+    for filename in os.listdir("tests_files"):
         if filename.endswith(".txt"):
             tablename = os.path.splitext(filename)[0]
 
             mycursor = mydb.cursor()
             mycursor.execute("CREATE TABLE {} (slowo VARCHAR(255), tlumaczenie TEXT)".format(tablename))
 
-            with loading.open_file(os.path.join("tests", filename)) as file:
+            with loading.open_file(os.path.join("tests_files", filename)) as file:
                 for line in file:
                     slowo, tlumaczenie = line.strip().split(' - ', 1)
                     val = (slowo, tlumaczenie)

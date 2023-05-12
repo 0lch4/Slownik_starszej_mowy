@@ -2,6 +2,7 @@ import os
 import mysql.connector
 from dotenv import load_dotenv
 
+#funkcja laczaca sie z baza danych
 def conn():
     load_dotenv()
 
