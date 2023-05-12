@@ -1,4 +1,3 @@
-
 from mydb import conn
 
 mydb = conn()
@@ -11,8 +10,3 @@ def query(word):
     mycursor.execute(sql)
     result = mycursor.fetchall()
     return result
-
-if __name__ == '__main__':   
-    word = 'wilk'        
-    result = query(word)
-    print(result)

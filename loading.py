@@ -7,18 +7,18 @@ def open_file(filename):
     return open(filename, 'r', encoding='utf-8')
 
 def create_tables():
-    for filename in os.listdir("slowniki"):
+    for filename in os.listdir("dictonaries"):
         if filename.endswith(".txt"):
             tablename = os.path.splitext(filename)[0]
 
             mycursor = mydb.cursor()
             mycursor.execute("CREATE TABLE {} (tlumaczenie VARCHAR(255), polskie_slowa TEXT)".format(tablename))
 
-            with open_file(os.path.join("slowniki", filename)) as file:
+            with open_file(os.path.join("dictonaries", filename)) as file:
                 for line in file:
-                    slowo, tlumaczenie = line.strip().split(' - ', 1)
+                    elf_word, polish_word = line.strip().split(' - ', 1)
                     sql = "INSERT INTO {} (tlumaczenie, polskie_slowa) VALUES (%s, %s)".format(tablename)
-                    val = (slowo, tlumaczenie)
+                    val = (elf_word, polish_word)
                     mycursor.execute(sql, val)
 
             mydb.commit()

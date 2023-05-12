@@ -1,32 +1,33 @@
 import pytest
 import os
 from mydb import conn
+from fastapi.testclient import TestClient
 
 mydb = conn()
 
 import plik
 
 def test_tuples():
-    dane = '''Aecáemm - podążać
+    data = '''Aecáemm - podążać
         Aedd - okruch
         Deien - służyć
         Waen - chcieć'''
         
-    dane = dane.split('\n')
-    slowniczek = {}
-    slownik = []
+    data = data.split('\n')
+    dictionary = {}
+    pairs = []
 
-    expected_slownik = [('Aecáemm', 'podążać'), ('Aedd', 'okruch'), ('Deien', 'służyć'), ('Waen', 'chcieć')]
-    expected_slowniczek = {'p': [('Aecáemm', 'podążać')],'o': [('Aedd', 'okruch')], 's':[('Deien', 'służyć')], 'c': [('Waen', 'chcieć')]}
+    expected_pairs = [('Aecáemm', 'podążać'), ('Aedd', 'okruch'), ('Deien', 'służyć'), ('Waen', 'chcieć')]
+    expected_dict = {'p': [('Aecáemm', 'podążać')],'o': [('Aedd', 'okruch')], 's':[('Deien', 'służyć')], 'c': [('Waen', 'chcieć')]}
 
-    plik.tuples(dane, slownik, slowniczek)
+    plik.tuples(data, pairs, dictionary)
 
-    assert slownik == expected_slownik
-    assert slowniczek == expected_slowniczek
+    assert pairs == expected_pairs
+    assert dictionary == expected_dict
     
     
 def test_make_files():
-    slowniczek = {'p': [('Aecáemm', 'podążać')],'o': [('Aedd', 'okruch')], 's':[('Deien', 'służyć')], 'c': [('Waen', 'chcieć')]}
+    dictionary = {'p': [('Aecáemm', 'podążać')],'o': [('Aedd', 'okruch')], 's':[('Deien', 'służyć')], 'c': [('Waen', 'chcieć')]}
 
     
     with open('tests/makefile/A.txt','w',encoding="utf-8") as f:
@@ -36,7 +37,7 @@ def test_make_files():
     with open('tests/makefile/W.txt','w',encoding="utf-8") as f:
         f.write('Waen - chcieć')
         
-    plik.make_files(slowniczek,'tests/makefile')
+    plik.make_files(dictionary,'tests/makefile')
     
     with open('tests/makefile/A.txt','r',encoding="utf-8") as f:
         assert f.read() == 'Aecáemm - podążać\nAedd - okruch'
@@ -46,7 +47,7 @@ def test_make_files():
         assert f.read() == 'Waen - chcieć'
         
         
-import ladowanie
+import loading
 
 def test_create_tables2():
     for filename in os.listdir("tests"):
@@ -56,13 +57,22 @@ def test_create_tables2():
             mycursor = mydb.cursor()
             mycursor.execute("CREATE TABLE {} (slowo VARCHAR(255), tlumaczenie TEXT)".format(tablename))
 
-            with ladowanie.open_file(os.path.join("tests", filename)) as file:
+            with loading.open_file(os.path.join("tests", filename)) as file:
                 for line in file:
                     slowo, tlumaczenie = line.strip().split(' - ', 1)
-                    sql = "INSERT INTO {} (slowo, tlumaczenie) VALUES (%s, %s)".format(tablename)
                     val = (slowo, tlumaczenie)
     
     assert tablename == 'test1'
     assert val == ('is this', 'work')
     mycursor.execute("DROP TABLE IF EXISTS test1")
     
+
+
+from main import app
+
+client = TestClient(app)
+
+def test_submit_form():
+    response = client.post("/submit", data={"words": "wilk"})
+    assert response.status_code == 200
+    assert "Bleidd" in response.text

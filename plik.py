@@ -2,7 +2,7 @@ pairs = []
 dictionary = {}
 
 def import_data():
-    with open('slowniczek.txt','r',encoding='utf-8') as f:
+    with open('data.txt','r',encoding='utf-8') as f:
         data = f.read()
     data = data.split('\n')
     return data
@@ -39,4 +39,4 @@ def make_files(dictionary,dirr):
 if __name__ == '__main__':
     data = import_data()
     tuples(data,pairs,dictionary)
-    make_files(dictionary,'slowniki')
+    make_files(dictionary,'dictonaries')
