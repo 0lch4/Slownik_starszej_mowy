@@ -2,10 +2,12 @@
 <html>
     <head>
         <title>Tłumaczenie</title>
+        <link rel="stylesheet" href="{{ url_for('static', path='/css/result.css') }}">
     </head>
     <body>
-        <h1>Tłumaczenie:</h1>
-        <p>Nie ma tłumaczenia dla tego słowa</p>
-        <a href="/">Chcę przetłumaczyć inne słowo</a>
+        <div id='result'>
+            <h2>Nie ma tlumaczenia dla tego slowa</h2>
+            <a href="/">Powrot</a>
+        </div>
     </body>
 </html>

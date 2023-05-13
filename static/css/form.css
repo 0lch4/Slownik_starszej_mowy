@@ -5,19 +5,30 @@
 
 body {
   background-image: url('../images/background.jpg');
-  background-size: cover;
+  background-size: 100vw 100vh;
   background-repeat: no-repeat;
   font-family: 'Wither-font', sans-serif;
-  font-size: 50px;
+  font-size: 3vw;
 }
-
-#form{
+#form {
   position: absolute;
-  top: 0;
-  left: 0;
-  margin-top: 100px;
-  margin-left: 200px;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+  text-align: center;
+
 }
 
+input[type="text"] {
+  font-family: 'Wither-font';
+  font-size: 1vw;
+  text-align: center;
+  scale: 180%;
+}
+input[type=submit] {
+  font-family: 'Wither-font', sans-serif;
+  font-size: 1vw;
+  scale: 140%;
+}
 
 

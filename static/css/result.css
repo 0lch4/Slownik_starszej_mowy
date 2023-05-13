@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Wither-font';
+    src: url('../font/Thewitcher-jnOj.ttf');
+  }
+
+body {
+    background-image: url('../images/background.jpg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    font-family: 'Wither-font', sans-serif;
+    font-size: 2vw;
+  }
+
+#result{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-20%, -20%);
+    text-align: center;
+}
