@@ -14,7 +14,9 @@ Wymagane dane znajdują się w pliku .env.example należy utworzyć plik .env i 
 
 Opis: Słownik internetowy wykorzystujący bazę danych MySQL oraz FastApi, który po wprowadzeniu Polskiego słowa wyszukuje jego odpowiednik w starszej mowie z Wiedźmina.
 
-Folder templates zawiera widoki html, aktualnie są one proste i planuje je poprawić wizualnie, najpierw chciałem zrobić backend.
+Folder templates zawiera widoki html.
+
+Folder Static zawiera pliki statyczne, są tam style, grafika i czcionka.
 
 Folder test_files zawiera pliki które są potrzebne do testów jednostkowych.
 
