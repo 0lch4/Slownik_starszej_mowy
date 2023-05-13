@@ -2,12 +2,13 @@
 <html>
     <head>
         <title>Polskie</title>
+        <link rel="stylesheet" href="{{ url_for('static', path='/css/form.css') }}">
     </head>
     <body>
-        <form action="/submit" method="post">
-            <label for="words">Podaj polskie słowo:</label><br>
+        <form id ='form' action="/submit" method="post">
+            <label for="words">Podaj polskie slowo</label><br>
             <input type="text" id="words" name="words"><br>
             <input type="submit" value="Submit">
-          </form>
+        </form>
     </body>
 </html>

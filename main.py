@@ -1,6 +1,7 @@
 from fastapi import FastAPI, Form, Request
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
+from fastapi.staticfiles import StaticFiles
 from mydb import conn
 from query import query
 
@@ -11,6 +12,9 @@ app = FastAPI()
 
 #polaczenie z katalogiem z widokami
 templates = Jinja2Templates(directory="templates")
+
+#polaczenie ze stylami
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 #widok glowny ktory wyswietla sie pod adresem strony
 @app.get("/", response_class=HTMLResponse)
