@@ -22,7 +22,6 @@ async def show_form(request: Request):
     return templates.TemplateResponse("form.html", {"request": request})
 
 
-
 #widok wyswietlajacy odpowiedz na zapytanie, po otrzymaniu odpowiedzi mozna cofnac sie do widoku glownego
 @app.post("/submit", response_class=HTMLResponse)
 async def submit_form(request: Request, words: str = Form(None)):
@@ -43,5 +42,3 @@ async def submit_form(request: Request, words: str = Form(None)):
         else:
             #w przypadku nie odnalezienia danych pokazuje komunikat o ich braku
             return templates.TemplateResponse("unkown_word.html", {"request": request, "result": result})
-
-

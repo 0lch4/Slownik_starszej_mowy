@@ -35,3 +35,6 @@ Plik query wysyła zapytanie do bazy o podane słowo i następnie wyciąga wynik
 Plik tests.py zawiera testy, których używałem aby sprawdzić działanie aplikacji.
 
 Plik main.py jest główną aplikacją, która korzysta z frameworka FastApi aby za pomocą Uvicorna uruchomić aplikację w przeglądarce, aby ją uruchomić należy wpisać uvicorn main:app --reload w terminalu, w lokalizacji gdzie znajduje się main.py.
+
+![screen1](screenshots/screen1.png)
+![screen2](screenshots/screen2.png)
