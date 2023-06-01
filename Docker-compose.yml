@@ -5,7 +5,7 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: 'db'
-      MYSQL_USER: 'user'
+      MYSQL_USER: 'root'
       MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
     ports:
       - '3306:3306'
@@ -24,7 +24,7 @@ services:
         - 8000:8000
     environment:
       - database=db
-      - user=user
+      - user=root
       - password=
       - host=db
     networks:
