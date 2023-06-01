@@ -4,9 +4,9 @@ services:
     image: mysql:8.0
     restart: always
     environment:
-      MYSQL_DATABASE: 'db'
-      MYSQL_USER: 'user'
-      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      database: 'db'
+      user: 'user'
+      password: 'password'
     ports:
       - '3306:3306'
     volumes:
@@ -23,11 +23,10 @@ services:
     ports:
         - 8000:8000
     environment:
-      - NAME=db
-      - USER=root
-      - PASSWORD=
-      - HOST=db
-      - PORT=3306
+      - database=db
+      - user=user
+      - password=password
+      - host=db
     networks:
       - witcher_networks
     depends_on:
