@@ -36,5 +36,7 @@ Plik tests.py zawiera testy, których używałem aby sprawdzić działanie aplik
 
 Plik main.py jest główną aplikacją, która korzysta z frameworka FastApi aby za pomocą Uvicorna uruchomić aplikację w przeglądarce, aby ją uruchomić należy wpisać uvicorn main:app --reload w terminalu, w lokalizacji gdzie znajduje się main.py.
 
+Aby uruchomić kontener należy wpisać docker-compose up --build w glównym katalogu, aplikacja bedzie wtedy dostepna pod adresem http://localhost:8000
+
 ![screen1](screenshots/screen1.png)
 ![screen2](screenshots/screen2.png)
