@@ -12,7 +12,7 @@ services:
     volumes:
       - my-db:/var/lib/mysql
     networks:
-      - witcher_networks
+      - wither_networks
   main:
     build:
         context: .
@@ -28,7 +28,7 @@ services:
       - password=
       - host=db
     networks:
-      - witcher_networks
+      - wither_networks
     depends_on:
       - db
 
@@ -36,4 +36,4 @@ volumes:
   my-db:
 
 networks:
-  witcher_networks:
+  wither_networks:
