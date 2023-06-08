@@ -1,42 +1,92 @@
-# Slownik-starszej-mowy
+# Słownik starszej mowy
 
-![GitHub forks](https://img.shields.io/badge/Version-1.1-red)
+![GitHub forks](https://img.shields.io/badge/Version-1.2.0-red)
 
 Interface in Polish lang
 
-instalacja bibliotek:
+# Opis
 
-pip install -r requirements.txt
+Słownik internetowy wykorzystujący bazę danych MySQL oraz FastApi, który po wprowadzeniu Polskiego słowa wyszukuje jego odpowiednik w starszej mowie z Wiedźmina.
 
-Wymagany jest serwer MySQL
+## Licencja
 
-Wymagane dane znajdują się w pliku .env.example należy utworzyć plik .env i podać tam swoje klucze według wzoru
+Aplikacja działa na licencji MIT
 
-Opis: Słownik internetowy wykorzystujący bazę danych MySQL oraz FastApi, który po wprowadzeniu Polskiego słowa wyszukuje jego odpowiednik w starszej mowie z Wiedźmina.
+# Instalacja
 
-Folder templates zawiera widoki html.
+## Wymagany jest serwer [MySQL](https://dev.mysql.com/downloads/mysql/)
 
-Folder Static zawiera pliki statyczne, są tam style, grafika i czcionka.
+## Kopiowanie repozytorium:
 
-Folder test_files zawiera pliki które są potrzebne do testów jednostkowych.
+```
+git clone https://github.com/0lch4/Slownik_starszej_mowy.git
+```
 
-Plik plik.py otwiera plik data.txt gdzie wkleiłem wszystkie znane słowa. 
-Źródło:https://wiedzmin.fandom.com/wiki/S%C5%82ownik_starszej_mowy 
-Następnie rozdziela je według danych jakie podałem i tworzy osobny plik dla każdej pierwszej litery polskiego słowa.
+## Instalacja bibliotek:
 
-Plik loading.py ładuje wszystkie dane do bazy gdzie nazwa tabeli odpowiada nazwie pliku tzn plik A.txt tworzy tabele A gdzie dane są odpowiednio przypisane.
+Wymagane jest narzędzie `poetry`:
 
-Plik load_data_to_database.sh ładuje dane do bazy danych wykorzystując pliki plik.py oraz loading.py, po zaladowaniu danych kasuje powstałe foldery, mozna recznie uruchomic plik.py a nastepnie loading.py aby zaladowac dane.
+```
+pip install poetry
+```
 
-Plik mydb.py służy do łączenia się z bazą danych, gdy potrzebuje się połączyć z bazą to go importuje zamiast pisać w kółko to samo.
+Następnie w głównej lokalizacji wpisujemy
 
-Plik query wysyła zapytanie do bazy o podane słowo i następnie wyciąga wynik z bazy.
+```
+poetry install
+```
 
-Plik tests.py zawiera testy, których używałem aby sprawdzić działanie aplikacji.
+## Plik .env:
 
-Plik main.py jest główną aplikacją, która korzysta z frameworka FastApi aby za pomocą Uvicorna uruchomić aplikację w przeglądarce, aby ją uruchomić należy wpisać uvicorn main:app --reload w terminalu, w lokalizacji gdzie znajduje się main.py.
+Należy stworzyć plik `.env` na podstawie `.env.example`
 
-Aby uruchomić kontener należy wpisać docker-compose up --build w glównym katalogu, aplikacja bedzie wtedy dostepna pod adresem http://localhost:8000
+## Ładowanie danych do bazy
+
+Należy uruchomić skrypt `load_data_to_database.sh` z poziomu głownego folderu
+```
+./app/load_data_to_database.sh
+```
+
+Osoby, które nie mają linuxa/git basha muszą stworzyć folder dictionaries w folderze load_data następnie z głównej lokalizacji:
+
+```
+python3 app.load_data.plik
+```
+```
+python3 app.load_data.loading
+```
+
+# Uruchamianie
+
+Gdy wszystkie zależności zostały spełnione wpisujemy w głównej lokalizacji:
+
+```
+uvicorn app.main:app --reload
+```
+
+Aplikacja będzie dostępna pod adresem:
+
+```
+http://localhost:8000/
+```
+
+Aby uruchomić kontener należy wpisać w głównej lokalizacji:
+
+```
+docker-compose up --build
+```
+
+Aplikacja będzie dostępna pod adresem:
+
+```
+http://localhost:8000/
+```
+
+# Zrzuty ekranu
 
 ![screen1](screenshots/screen1.png)
 ![screen2](screenshots/screen2.png)
+
+# Źródła
+
+https://wiedzmin.fandom.com/wiki/S%C5%82ownik_starszej_mowy

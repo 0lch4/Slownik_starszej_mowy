@@ -1,13 +1,13 @@
-from app.connection.mydb import conn
+from .mydb import conn
 
 mydb = conn()
 
 
-def query(word):
+def query(word: str) -> str:
     tablename = word[:1]
     mycursor = mydb.cursor()
-    sql = "SELECT * FROM {} WHERE polskie_slowa LIKE '{}';".format(tablename, word)
+    sql = f"SELECT * FROM {tablename} WHERE polskie_slowa LIKE '{word}';"  # noqa: S608
     print(sql)
     mycursor.execute(sql)
     result = mycursor.fetchall()
-    return result
+    return result  # noqa: RET504

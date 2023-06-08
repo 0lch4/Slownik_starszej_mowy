@@ -15,18 +15,18 @@ services:
       - wither_networks
   main:
     build:
-        context: .
+        context: /app
         dockerfile: Dockerfile
     volumes:
-        - .:/main
+        - /app/main:/main/app
     restart: always
     ports:
         - 8000:8000
     environment:
-      - database=db
-      - user=root
-      - password=
-      - host=db
+      - DATABSE=db
+      - USER=root
+      - PASSWORD=
+      - HOST=db
     networks:
       - wither_networks
     depends_on:

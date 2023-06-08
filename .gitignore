@@ -2,7 +2,5 @@ venv
 __pycache__
 .pytest_cache
 .env
-tests
-dictionaries
 .vscode
-.ruff_cachce
+.ruff_cache
