@@ -14,7 +14,7 @@ Aplikacja działa na licencji MIT
 
 # Instalacja
 
-## Wymagany jest serwer [MySQL](https://dev.mysql.com/downloads/mysql/)
+Wymagany jest serwer [MySQL](https://dev.mysql.com/downloads/mysql/)
 
 ## Kopiowanie repozytorium:
 
