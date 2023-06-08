@@ -1,9 +1,10 @@
 import os
 import mysql.connector
 from dotenv import load_dotenv
+from typing import Any
 
 
-def conn() -> any:
+def conn() -> Any:
     load_dotenv()
 
     mydb = mysql.connector.connect(

@@ -1,12 +1,14 @@
 import os
 from fastapi.testclient import TestClient
 from pathlib import Path
-from app.connection.mydb import conn
-from app.main import app
-from app.load_data import create
 
+from app import (
+    mydb,
+    create,
+    app,
+)
 
-mydb = conn()
+mydb = mydb.conn()
 
 
 def test_tuples() -> None:
