@@ -2,6 +2,7 @@ from fastapi import FastAPI, Form, Request
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
+from typing import Any
 from app.connection.query import query
 from app.connection.mydb import conn
 
@@ -15,13 +16,13 @@ app.mount("/static", StaticFiles(directory="app/static"), name="static")
 
 # main view on site address, ask for word
 @app.get("/", response_class=HTMLResponse)
-async def show_form(request: Request):  # noqa: ANN201
+async def show_form(request: Request) -> Any:
     return templates.TemplateResponse("form.html", {"request": request})
 
 
 # show results
 @app.post("/submit", response_class=HTMLResponse)
-async def submit_form(request: Request, words: str = Form(None)):  # noqa: ANN201, B008
+async def submit_form(request: Request, words: str = Form(None)) -> Any:  # noqa: B008
     if words is None:
         return templates.TemplateResponse("form.html", {"request": request})
         # formating the results
