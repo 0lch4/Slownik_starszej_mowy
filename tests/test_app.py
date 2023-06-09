@@ -48,7 +48,7 @@ def test_make_files() -> None:
         "c": [("Waen", "chcieć")],
     }
 
-    file_path = Path("tests/tests_files/makefile/A.txt")
+    file_path = Path("/tests_files/makefile/A.txt")
     with file_path.open(mode="w", encoding="utf-8") as file:
         file.write("Aecáemm - podążać\nAedd - okruch")
 
@@ -78,13 +78,13 @@ def test_make_files() -> None:
 def test_create_tables2() -> None:
     for filename in os.listdir("tests/tests_files"):
         if filename.endswith(".txt"):
-            tablename = Path.suffix(filename)[0]
+            tablename = os.path.splitext(filename)[0]  # noqa: PTH122
             mycursor = mydb.cursor()
             mycursor.execute(
                 f"CREATE TABLE {tablename} (slowo VARCHAR(255), tlumaczenie TEXT)"
             )
 
-            file_path = Path("tests_files") / filename
+            file_path = Path("tests/tests_files") / filename
             with file_path.open(mode="r") as file:
                 for line in file:
                     slowo, tlumaczenie = line.strip().split(" - ", 1)

@@ -9,4 +9,4 @@ def query(word: str) -> str:
     sql = f"SELECT * FROM {tablename} WHERE polskie_slowa LIKE '{word}';"  # noqa: S608
     print(sql)
     mycursor.execute(sql)
-    return  mycursor.fetchall()
+    return mycursor.fetchall()

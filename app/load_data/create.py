@@ -14,7 +14,7 @@ def import_data() -> list:
 
 # parses data.txt and creates a file starting with the
 # first letter of the word with word - translation pairs
-def tuples(data: list, pairs: tuple, dictionary: dict) -> None:
+def tuples(data: list, pairs: list, dictionary: dict) -> None:
     for line in data:
         sides = line.split("-")
         elf_words = sides[0].strip()

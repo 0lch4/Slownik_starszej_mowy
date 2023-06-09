@@ -5,11 +5,6 @@ from app.connection.mydb import conn
 mydb = conn()
 
 
-def open_file(filename: str) -> None:
-    file_path = Path(filename)
-    return file_path.open(mode="r", encoding="utf-8")
-
-
 def create_tables() -> None:
     # iterates on all files in dictionaries folder
     for filename in os.listdir("app/load_data/dictionaries"):
