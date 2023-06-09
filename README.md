@@ -6,7 +6,7 @@ Interface in Polish lang
 
 # Opis
 
-Słownik internetowy wykorzystujący bazę danych MySQL oraz FastApi, który po wprowadzeniu Polskiego słowa wyszukuje jego odpowiednik w starszej mowie z Wiedźmina. Korzysta z bazy danych MySQL, posiada skrypt, który ładuje dane do bazy danych. Został zbudowana na frameworku FastAPI.
+Słownik internetowy wykorzystujący bazę danych MySQL oraz FastApi, który po wprowadzeniu Polskiego słowa wyszukuje jego odpowiednik w starszej mowie z Wiedźmina.
 
 ## Licencja
 
