@@ -70,6 +70,8 @@ Aplikacja będzie dostępna pod adresem:
 http://localhost:8000/
 ```
 
+## Uruchamianie w kontenerze
+
 Aby uruchomić kontener należy wpisać w głównej lokalizacji:
 
 ```
