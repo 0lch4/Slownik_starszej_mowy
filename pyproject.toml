@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "Slownik_starszej_mowy"
+version = "1.2.0"
+description = "Tlumaczy Polskie slowa na starsza mowe z wiedzmina"
+authors = ["0lch4 <127250399+0lch4@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11.0" 
+mysql-connector-python = "8.0.33"
+python-dotenv = "1.0.0"
+pytest = "7.3.1"
+fastapi = "0.95.1"
+uvicorn = "0.22.0"
+python-multipart = "0.0.6"
+jinja2 = "3.1.2"
+httpx = "0.24.0"
+pathlib = "1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

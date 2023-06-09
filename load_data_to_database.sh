@@ -1,5 +1,5 @@
 #!/bin/bash
-mkdir dictonaries
-python3 plik.py
-python3 loading.py
-rm -r dictonaries
+mkdir app/load_data/dictionaries &&
+python -m app.load_data.create &&
+python -m app.load_data.loading &&
+rm -r app/load_data/dictionaries
