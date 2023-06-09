@@ -50,10 +50,7 @@ Należy uruchomić skrypt `load_data_to_database.sh` z poziomu głownego folderu
 Osoby, które nie mają linuxa/git basha muszą stworzyć folder dictionaries w folderze load_data następnie z głównej lokalizacji:
 
 ```
-python -m app.load_data.plik
-```
-```
-python -m app.load_data.loading
+python -m app.load_data
 ```
 
 # Uruchamianie
