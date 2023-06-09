@@ -21,6 +21,7 @@ def tuples(data: list, pairs: list, dictionary: dict) -> None:
         polish_words = sides[1].strip()
         del_comma = polish_words.replace(",", " -")
         all_words = del_comma.split("-")
+
         for word in all_words:
             word = word.strip()  # noqa: PLW2901
             tupl = (elf_words, word)
