@@ -14,7 +14,11 @@ def import_data() -> list:
 
 # parses data.txt and creates a file starting with the
 # first letter of the word with word - translation pairs
-def tuples(data: list, pairs: list, dictionary: dict) -> None:
+def tuples(
+    data: list[str],
+    pairs: list[tuple[str, str]],
+    dictionary: dict[str, list[tuple[str, str]]],
+) -> None:
     for line in data:
         sides = line.split("-")
         elf_words = sides[0].strip()
@@ -23,9 +27,9 @@ def tuples(data: list, pairs: list, dictionary: dict) -> None:
         all_words = del_comma.split("-")
 
         for word in all_words:
-            word = word.strip()  # noqa: PLW2901
-            tupl = (elf_words, word)
-            first_letter = word[0]
+            new_word = word.strip()
+            tupl = (elf_words, new_word)
+            first_letter = new_word[0]
             if first_letter in dictionary:
                 dictionary[first_letter].append(tupl)
             else:
