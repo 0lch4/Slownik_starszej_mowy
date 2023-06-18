@@ -1,4 +1,4 @@
-# Słownik starszej mowy ![GitHub forks](https://img.shields.io/badge/Version-1.0.0-red)
+# Słownik starszej mowy ![GitHub forks](https://img.shields.io/badge/Version-1.0.1-red)
 
 Interface in Polish lang
 
