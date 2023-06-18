@@ -48,7 +48,7 @@ def test_make_files() -> None:
         "c": [("Waen", "chcieć")],
     }
 
-    file_path = Path("/tests_files/makefile/A.txt")
+    file_path = Path("test/tests_files/makefile/A.txt")
     with file_path.open(mode="w", encoding="utf-8") as file:
         file.write("Aecáemm - podążać\nAedd - okruch")
 

@@ -34,6 +34,12 @@ Następnie w głównej lokalizacji wpisujemy
 poetry install
 ```
 
+Gdy zależności są zainstalowane należy uruchomić wirtualne środowisko
+
+```
+poetry shell
+```
+
 ## Plik .env:
 
 Należy stworzyć plik `.env` na podstawie `.env.example`
