@@ -1,0 +1,40 @@
+version: "3.7"
+services:
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_USER: 'root'
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+    ports:
+      - '3306:3306'
+    volumes:
+      - my-db:/var/lib/mysql
+    networks:
+      - witcher_networks
+  main:
+    build:
+        context: /app
+        dockerfile: Dockerfile
+    command: bash -c "cd .. && uvicorn app.main:app --proxy-headers --host 0.0.0.0 --port 8000"
+    volumes:
+        - /app/main:/main/app
+    restart: always
+    ports:
+        - 8000:8000
+    environment:
+      - DATABSE=db
+      - USER=root
+      - PASSWORD=
+      - HOST=db
+    networks:
+      - witcher_networks
+    depends_on:
+      - db
+
+volumes:
+  my-db:
+
+networks:
+  witcher_networks:
