@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'WitcherFont';
+  src: url('/font/Thewitcher-jnOj.ttf');
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'WitcherFont', Georgia, serif;
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #e8d5a3;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 560px;
+  padding: 2rem;
+  text-align: center;
+  background: rgba(20, 12, 4, 0.72);
+  border: 1px solid #6b4f1e;
+  border-radius: 8px;
+  backdrop-filter: blur(2px);
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: #c9a84c;
+  letter-spacing: 0.05em;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  font-family: 'WitcherFont', Georgia, serif;
+  background: rgba(20, 12, 4, 0.8);
+  border: 1px solid #6b4f1e;
+  color: #e8d5a3;
+  border-radius: 4px;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #c9a84c;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-family: 'WitcherFont', Georgia, serif;
+  background: #6b4f1e;
+  color: #e8d5a3;
+  border: 1px solid #c9a84c;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+  background: #8a661f;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.results {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: rgba(20, 12, 4, 0.85);
+  border: 1px solid #6b4f1e;
+  border-radius: 6px;
+}
+
+.results h2 {
+  font-size: 1rem;
+  color: #a08040;
+  margin-bottom: 0.75rem;
+}
+
+.translation {
+  font-size: 1.6rem;
+  color: #e8d5a3;
+  margin-bottom: 1.25rem;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+}
+
+.not-found {
+  font-style: italic;
+  color: #a08040;
+  margin-bottom: 1.25rem;
+}
+
+.back {
+  background: transparent;
+  border-color: #6b4f1e;
+  font-size: 0.9rem;
+}

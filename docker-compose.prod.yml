@@ -9,8 +9,6 @@ services:
       MYSQL_USER: root2
       MYSQL_PASSWORD: Str4rszaMow4!
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-    ports:
-      - "3306:3306"
     volumes:
       - db-data:/var/lib/mysql
     networks:
@@ -22,9 +20,7 @@ services:
       retries: 10
 
   backend:
-    build:
-      context: .
-      dockerfile: backend/Dockerfile
+    image: 0lch4/slownik-backend:latest
     restart: always
     ports:
       - "8000:8000"
@@ -37,12 +33,10 @@ services:
         condition: service_healthy
 
   frontend:
-    build:
-      context: .
-      dockerfile: frontend/Dockerfile
+    image: 0lch4/slownik-frontend:latest
     restart: always
     ports:
-      - "3000:80"
+      - "80:80"
     networks:
       - app-network
     depends_on:

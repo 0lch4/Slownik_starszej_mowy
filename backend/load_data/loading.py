@@ -1,13 +1,13 @@
 import os
 from pathlib import Path
-from app.connection.mydb import conn
+from backend.connection.mydb import conn
 
 mydb = conn()
 
 
 def create_tables() -> None:
     # iterates on all files in dictionaries folder
-    for filename in os.listdir("app/load_data/dictionaries"):
+    for filename in os.listdir("backend/load_data/dictionaries"):
         if filename.endswith(".txt"):
             # table name = file name
             tablename = os.path.splitext(filename)[0]  # noqa: PTH122
@@ -15,7 +15,7 @@ def create_tables() -> None:
             mycursor.execute(
                 f"CREATE TABLE {tablename} (tlumaczenie VARCHAR(255), polskie_slowa TEXT)"  # noqa: E501
             )
-            file_path = Path("app/load_data/dictionaries") / filename
+            file_path = Path("backend/load_data/dictionaries") / filename
             with file_path.open(mode="r", encoding="utf-8") as file:
                 for line in file:
                     elf_word, polish_word = line.strip().split(" - ", 1)

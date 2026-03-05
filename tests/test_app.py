@@ -2,7 +2,7 @@ import os
 from fastapi.testclient import TestClient
 from pathlib import Path
 
-from app import (
+from backend import (
     mydb,
     create,
     app,

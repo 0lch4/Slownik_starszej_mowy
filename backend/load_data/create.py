@@ -5,7 +5,7 @@ dictionary = {}
 
 
 def import_data() -> list:
-    file_path = Path("app/load_data/data.txt")
+    file_path = Path("backend/load_data/data.txt")
     with file_path.open(mode="r", encoding="utf-8") as file:
         data = file.read()
     data = data.split("\n")
@@ -38,7 +38,7 @@ def tuples(
 
 
 def make_files(dictionary: dict, dirr: str) -> None:
-    path = Path(f"app/load_data/{dirr}")
+    path = Path(f"backend/load_data/{dirr}")
     for letter, pair in dictionary.items():
         file_path = path / f"{letter}.txt"
         with file_path.open(mode="a", encoding="utf-8") as file:

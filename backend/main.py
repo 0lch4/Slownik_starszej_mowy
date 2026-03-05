@@ -1,17 +1,17 @@
 from fastapi import FastAPI, Form, Request
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from typing import Any
-from app.connection.query import query
-from app.connection.mydb import conn
+from backend.connection.query import query
+from backend.connection.mydb import conn
 
 mydb = conn()
 app = FastAPI()
 
-templates = Jinja2Templates(directory="app/templates")
+templates = Jinja2Templates(directory="backend/templates")
 
-app.mount("/static", StaticFiles(directory="app/static"), name="static")
+app.mount("/static", StaticFiles(directory="backend/static"), name="static")
 
 
 # main view on site address, ask for word
@@ -39,3 +39,12 @@ async def submit_form(request: Request, words: str = Form(None)) -> Any:  # noqa
     return templates.TemplateResponse(
         "unkown_word.html", {"request": request, "result": result}
     )
+
+
+@app.get("/api/search")
+async def search_api(word: str = "") -> JSONResponse:
+    if not word:
+        return JSONResponse({"results": [], "found": False})
+    queryy = query(word)
+    results_list = [que[0] for que in queryy]
+    return JSONResponse({"results": results_list, "found": len(results_list) > 0})
