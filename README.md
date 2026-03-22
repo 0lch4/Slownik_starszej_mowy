@@ -1,95 +1,86 @@
-# Słownik starszej mowy ![GitHub forks](https://img.shields.io/badge/Version-1.0.1-red)
+# Słownik starszej mowy ![Version](https://img.shields.io/badge/Version-1.2.0-red)
 
 Interface in Polish lang
 
-# Opis
+## Opis
 
-Słownik internetowy wykorzystujący bazę danych MySQL oraz FastApi, który po wprowadzeniu Polskiego słowa wyszukuje jego odpowiednik w starszej mowie z Wiedźmina.
+Słownik internetowy wykorzystujący bazę danych MySQL oraz FastAPI, który po wprowadzeniu polskiego słowa wyszukuje jego odpowiednik w starszej mowie z Wiedźmina. Aplikacja składa się z backendu w FastAPI oraz frontendu w React.
 
 ## Licencja
 
 Aplikacja działa na licencji MIT
 
-# Instalacja
+---
 
-Wymagany jest serwer [MySQL](https://dev.mysql.com/downloads/mysql/)
+## Uruchamianie przez Docker (lokalnie)
 
-## Kopiowanie repozytorium:
+Najprostszy sposób — wymaga tylko Dockera:
 
-```
+```bash
 git clone https://github.com/0lch4/Slownik_starszej_mowy.git
+cd Slownik_starszej_mowy
 ```
 
-## Instalacja bibliotek:
+Stwórz plik `.env` na podstawie `.env.example`, następnie:
 
-Wymagane jest narzędzie `poetry`:
-
+```bash
+docker compose up --build
 ```
+
+Aplikacja będzie dostępna pod adresem:
+- Frontend: `http://localhost:80`
+- Backend API: `http://localhost:8000`
+
+---
+
+## Wdrożenie na AWS EC2
+
+Zawartość pliku `ec2-setup.sh` wklej jako **User Data** podczas tworzenia instancji EC2:
+
+**EC2 → Launch Instance → Advanced Details → User Data**
+
+Skrypt automatycznie zainstaluje Docker, pobierze obrazy z Docker Hub i uruchomi aplikację.
+
+Wymagane porty w Security Group:
+- **22** — SSH
+- **80** — HTTP (frontend)
+
+---
+
+## Instalacja lokalna (bez Dockera)
+
+Wymagany serwer [MySQL](https://dev.mysql.com/downloads/mysql/) oraz narzędzie `poetry`.
+
+```bash
+git clone https://github.com/0lch4/Slownik_starszej_mowy.git
+cd Slownik_starszej_mowy
 pip install poetry
-```
-
-Następnie w głównej lokalizacji wpisujemy
-
-```
 poetry install
-```
-
-Gdy zależności są zainstalowane należy uruchomić wirtualne środowisko
-
-```
 poetry shell
 ```
 
-## Plik .env:
+Stwórz plik `.env` na podstawie `.env.example`, następnie załaduj dane do bazy:
 
-Należy stworzyć plik `.env` na podstawie `.env.example`
-
-## Ładowanie danych do bazy
-
-Należy uruchomić skrypt `load_data_to_database.sh` z poziomu głownego folderu
-```
-./app/load_data_to_database.sh
+```bash
+mkdir -p backend/load_data/dictionaries
+python -m backend.load_data
 ```
 
-Osoby, które nie mają linuxa/git basha muszą stworzyć folder dictionaries w folderze load_data następnie z głównej lokalizacji:
+Uruchom serwer:
 
-```
-python -m app.load_data
-```
-
-# Uruchamianie
-
-Gdy wszystkie zależności zostały spełnione wpisujemy w głównej lokalizacji:
-
-```
-uvicorn app.main:app --reload
+```bash
+uvicorn backend.main:app --reload
 ```
 
-Aplikacja będzie dostępna pod adresem:
+Aplikacja będzie dostępna pod adresem `http://localhost:8000`
 
-```
-http://localhost:8000/
-```
+---
 
-## Uruchamianie w kontenerze
-
-Aby uruchomić kontener należy wpisać w głównej lokalizacji:
-
-```
-docker-compose up --build
-```
-
-Aplikacja będzie dostępna pod adresem:
-
-```
-http://localhost:8000/
-```
-
-# Zrzuty ekranu
+## Zrzuty ekranu
 
 ![screen1](screenshots/screen1.png)
 ![screen2](screenshots/screen2.png)
 
-# Źródła
+## Źródła
 
 https://wiedzmin.fandom.com/wiki/S%C5%82ownik_starszej_mowy
