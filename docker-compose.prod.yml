@@ -4,10 +4,12 @@ services:
   db:
     image: mysql:8.0
     restart: always
+    env_file:
+      - .env
     environment:
-      MYSQL_DATABASE: db
-      MYSQL_USER: root2
-      MYSQL_PASSWORD: Str4rszaMow4!
+      MYSQL_DATABASE: ${DATABASE}
+      MYSQL_USER: ${USER}
+      MYSQL_PASSWORD: ${PASSWORD}
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
     volumes:
       - db-data:/var/lib/mysql
